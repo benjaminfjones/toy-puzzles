@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "toy-puzzle"
-version = "0.1.0"
-description = "Various puzzles and SMT solver based solutions"
+version = "0.2.0"
+description = "SAT/SMT Solver Solutions to Various Puzzles"
 authors = ["Benjamin Jones <benjaminfjones@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-z3-solver = "^4.8"
+python = "^3.13"
+z3-solver = "^4.13"
 
 [tool.poetry.dev-dependencies]
 
